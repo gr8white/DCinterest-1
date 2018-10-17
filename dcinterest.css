@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.flex-item {
+    justify-content: flex-start;
+}
+.flex-item:nth-child(2) {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.flex-body {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-body-items {
+    margin-top: 20px;
+    border: 0px
+}
